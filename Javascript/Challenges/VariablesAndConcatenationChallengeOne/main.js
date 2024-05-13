@@ -18,8 +18,15 @@ let myDiv = "<div>\
 <span> "+sectionDate+" </span>\n\
 </div>"
 
-// Write method 1
+// Write method 1 
 document.write(markUp)
 
 // Write method 2
 document.write(myDiv)
+
+// repeat first method 4 times 
+
+for(let i =0 ;i<4; i++)
+{
+    document.write(markUp);
+}
